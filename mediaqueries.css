@@ -1,0 +1,135 @@
+@media  screen and (max-width: 1400px) {
+    
+    .about-containers1{
+        flex-wrap: wrap;
+    }
+
+
+@media  screen and (max-width: 1280px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;;
+    }
+    #skills,
+    .experience-details-container{
+        margin-top:2rem;
+    }
+
+    #profile, 
+    .section-container{
+        display: block;
+    }
+
+
+    .arrow{
+        display: none;
+    }
+
+    section,
+    .section-container{
+        height: fit-content;  
+    }
+
+
+    section{
+        margin: 0 10%;
+    }
+    .section-pic-container{
+        height: 275px;
+        width: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-containers1{
+        margin-top: 0;
+        flex-direction: row;
+    } 
+}
+
+@media screen and (max-width: 1000){
+    .about-containers1{
+        margin-top: 0;
+        flex-direction: column;
+    } 
+}
+
+@media screen and (max-width: 600px){
+    #contact,
+    footer{
+        height:40vh;
+    }
+    #profile{
+        height:83vh;
+        margin-bottom: 0;
+    }
+
+    article{
+        font-size: 1rem;
+    }
+    footer nav{
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers1,
+    .contact-info-upper-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+
+    .contact-info-container{
+        margin:0
+    }
+
+    .contact-info-container p,
+    .nav-links li a{
+        font-size: 1rem;
+        line-height: 3rem;
+    
+    }
+    .experience-subtitle{
+        font-size: 1.5rem;
+    
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        flex-direction: column;
+        gap:0.5 rem;
+        text-align: center;
+    }
+    .section-pic-container{
+        width:auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .forward-icon{
+        display: none;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .details-container{
+        padding: 2rem;
+    }
+    .project-img{
+        width: 200px;
+    }
+    .text-container{
+        text-align: justify;
+    }
+    .rightbtn,.leftbtn{
+        display: none;
+    }
+
+
+}}
+
+/* @media  screen and (max-width: 400px) {
+    
+    #about{
+        margin-top: 12rem;
+    } 
+} */

@@ -48,12 +48,12 @@
     } 
 }
 
-@media screen and (max-width: 1000){
+/* @media screen and (max-width: 930){
     .about-containers1{
         margin-top: 0;
         flex-direction: column;
     } 
-}
+} */
 
 @media screen and (max-width: 600px){
     #contact,
@@ -126,6 +126,14 @@
     .about-containers2{
         margin-left: 0rem;
         margin-right: 0rem;
+    }
+
+    .about-containers1{
+        margin-top: 0;
+        flex-direction: column;
+    } 
+    .section-text-p3{
+        font-size: 1rem;
     }
 
 

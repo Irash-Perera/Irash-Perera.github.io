@@ -227,13 +227,13 @@ section{
 .title{
     font-size: 2rem;
     text-align: center;
-    /* font-weight: 600; */
+    font-weight: 600;
 }
 
 .name{
     font-size: 3rem;
     text-align: center;
-    /* font-weight: 600; */
+    font-weight: 600;
 }
 
 #social-container{

@@ -61,7 +61,7 @@
         height:40vh;
     }
     #profile{
-        height:83vh;
+        height:86vh;
         margin-bottom: 0;
     }
 
@@ -134,6 +134,9 @@
     } 
     .section-text-p3{
         font-size: 1rem;
+    }
+    .nav{
+        height: 14vh;
     }
 
 

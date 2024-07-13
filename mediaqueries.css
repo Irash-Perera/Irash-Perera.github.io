@@ -138,7 +138,10 @@
     .nav{
         height: 14vh;
     }
-
+    .name{
+        white-space: nowrap;
+        font-size: 2.3rem;
+    }
 
 
 }}

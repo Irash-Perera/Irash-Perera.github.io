@@ -146,18 +146,22 @@ section{
     margin:0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+
 }
 
 .section-container{
     display:flex;
     align-items: center;
     gap:2rem;
-    /* gap:4rem;
     height: 80%;
-    align-items: center;
-    justify-content: center; */
+
+    
 
 }
+
+/* .profile-section{
+    bottom: 20rem;
+} */
 
 /* Profile Section */
 

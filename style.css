@@ -378,6 +378,7 @@ section{
     border-color: rgb(163,163,163);
     text-align: center;
     display: inline-block; /* Ensures each container stays in a line */
+
 }
 
 .details-container p{
@@ -457,6 +458,10 @@ color-container{
     border-radius: 2rem;
     width:280px;
     height:auto;
+}
+.project-img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .project-title{

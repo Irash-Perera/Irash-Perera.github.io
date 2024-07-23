@@ -1,3 +1,12 @@
+@media screen and (min-width:1280px) {
+    #profile-normal{
+        display: none;
+    }
+    #profile-hover{
+        display: flex;
+    }
+}
+
 @media  screen and (max-width: 1400px) {
     
     .about-containers1{
@@ -12,6 +21,15 @@
     #hamburger-nav{
         display: flex;;
     }
+    
+    #profile-normal{
+        display: flex;
+    }
+
+    #profile-hover{
+        display: none;
+    }
+
     #skills,
     .experience-details-container{
         margin-top:2rem;

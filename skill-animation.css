@@ -1,0 +1,30 @@
+/* Apply a minimal transition effect on hover for articles */
+.article-container article {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.article-container article:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0; /* Change to your preferred hover color */
+}
+
+.article-container .icon {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.article-container article:hover .icon {
+    transform: scale(1.2);
+    filter: brightness(1.2); /* Brighten the icon slightly on hover */
+}
+
+.article-container h4, .article-container p {
+    transition: color 0.3s ease;
+}
+
+.article-container article:hover h4, .article-container article:hover p {
+    color: #333; /* Change to your preferred text color on hover */
+}

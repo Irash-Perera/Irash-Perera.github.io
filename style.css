@@ -434,7 +434,7 @@ article{
     display: flex;
     width:7rem;
     /* justify-content: space-around; */
-    gap: 1rem;
+    /* gap: 1rem; */
 }
 
 article .icon{

@@ -426,7 +426,7 @@ section{
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     justify-content:space-around;
 
 }
@@ -462,6 +462,7 @@ color-container{
 .project-img:hover{
     transform: scale(1.05);
     transition: transform 0.3s ease;
+    box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .project-title{
@@ -474,6 +475,83 @@ color-container{
     color: black;
     border-color: rgb(163,163,163);
 
+}
+
+/*Achievements Section*/
+
+.achievement-container{
+    padding:1.5rem;
+    flex:content;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+}
+
+.achv-photo{
+    border-radius: 2rem;
+    width:400px;
+    height:min-content
+}
+
+.achv-photo:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+
+.achv-btn{
+    color: black;
+    border-color: rgb(163,163,163);
+    width: fit-content;
+
+}
+
+.achv-photo-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content:space-around;
+    margin-top: 2.5rem;
+}
+
+.place-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+.achv-title{
+    color: black;
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+    text-wrap: nowrap;
+    font-weight: 500;
+}
+.achv-desc{
+    text-align: justify;
+}
+
+
+.achv-member{
+    height: 3.5rem;
+    border-radius: 50%;
+    cursor:default;
+}
+
+.achv-member:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 /* Contact Section */
@@ -512,6 +590,14 @@ color-container{
 
 .email-icon{
     height: 2.5rem;
+}
+
+.batman{
+    height: 5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 /* Footer */

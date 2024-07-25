@@ -171,6 +171,7 @@
     }
     .achievement-container{
         flex-direction: column;
+        gap:0rem;
     }
     .achv-title{
         text-wrap: wrap;
@@ -182,6 +183,10 @@
     }
     .opacity-50{
         opacity: 0.1;
+    }
+    .achv-photo-container{
+        margin-top: 0rem;
+        gap:0.5rem;
     }
 
 

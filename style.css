@@ -480,7 +480,7 @@ color-container{
 /*Achievements Section*/
 
 .achievement-container{
-    padding:1.5rem;
+    padding:1rem;
     flex:content;
     background: white;
     border-radius: 2rem;

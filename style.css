@@ -495,7 +495,8 @@ color-container{
 .achv-photo{
     border-radius: 2rem;
     width:400px;
-    height:min-content
+    height: auto;
+
 }
 
 .achv-photo:hover{

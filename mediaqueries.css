@@ -5,6 +5,9 @@
     #profile-hover{
         display: flex;
     }
+    .absolute{
+        top: 50px !important;
+    }
 }
 
 @media  screen and (max-width: 1400px) {
@@ -194,6 +197,9 @@
         margin-bottom: 0.7rem;
     }
     
+    .section-text-p2{
+        font-size: 1.2rem;
+    }
 
 
 }}

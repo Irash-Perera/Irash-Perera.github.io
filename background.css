@@ -1,6 +1,5 @@
 .absolute{
     position:absolute;
-    top: 50px !important;
     inset: 0;
     justify-content: center;
     display: inline-flex;

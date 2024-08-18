@@ -482,6 +482,21 @@ color-container{
 
 }
 
+.tech-stack{
+    margin-top: 0.8rem;
+    border-top: 1px solid rgb(163,163,163);
+    padding-top: 5px;
+}
+
+.iconss{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+
+
+
 /*Achievements Section*/
 
 .achievement-container{

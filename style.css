@@ -529,7 +529,7 @@ color-container{
 
 .achievement-container{
     padding:1rem;
-    flex:content;
+    /* flex:content; */
     background: white;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
@@ -538,6 +538,7 @@ color-container{
     display: flex;
     flex-direction: row;
     gap:2rem;
+    align-items: flex-start;
 }
 
 .achv-photo{

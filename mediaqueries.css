@@ -67,6 +67,9 @@
         margin-top: 0;
         flex-direction: row;
     } 
+    .contact-info-upper-container{
+        flex-wrap: wrap;
+    }
 }
 
 /* @media screen and (max-width: 930){
@@ -200,13 +203,27 @@
     .section-text-p2{
         font-size: 1.2rem;
     }
+    .imagine{
+        font-size: 1.5rem;
+    }
+    .achieve{
+        font-size: 2rem;
+    }
+
+    
 
 
 }}
 
-/* @media  screen and (max-width: 400px) {
+@media  screen and (max-width: 500px) {
     
-    #about{
-        margin-top: 12rem;
-    } 
-} */
+    /* .quote{
+        flex-direction: column;
+    } */
+    .imagine{
+        font-size: 1.5rem;
+    }
+    .achieve{
+        font-size: 2rem;
+    }
+}

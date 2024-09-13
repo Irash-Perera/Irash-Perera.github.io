@@ -1,10 +1,10 @@
 @media screen and (min-width:1280px) {
-    #profile-normal{
+    /* #profile-normal{
         display: none;
     }
     #profile-hover{
         display: flex;
-    }
+    } */
     .absolute{
         top: 50px !important;
     }
@@ -25,12 +25,12 @@
         display: flex;
     }
     
-    #profile-normal{
+    /* #profile-normal{
         display: flex;
     }
 
     #profile-hover{
-        display: none;
+        display: none; */
     }
 
     #skills,
@@ -213,7 +213,7 @@
     
 
 
-}}
+}
 
 @media  screen and (max-width: 500px) {
     

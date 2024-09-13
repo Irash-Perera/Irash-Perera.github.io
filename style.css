@@ -56,6 +56,9 @@ a:hover{
 
 .logo{
     font-size: 2rem;
+    font-family: "Kaushan Script", cursive;
+    transform: rotate(-8deg);
+    font-weight: 200;
 }
 
   
@@ -212,6 +215,14 @@ section{
 .profile-photo { 
     border-radius: 50%;
     /* border: 1px solid rgb(53,53,53); */
+ }
+ .profile-photo:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease ;
+    box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    border-style:dashed;
+    border-width: 0.1rem;
+    padding: 0.7rem;
  }
 
 .section-text{

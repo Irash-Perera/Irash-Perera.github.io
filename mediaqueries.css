@@ -8,6 +8,30 @@
     .absolute{
         top: 50px !important;
     }
+    .timeline-item::before{
+        font-size: 2rem;
+    }
+    .second-mile{
+        max-width: 300px;
+    }
+    .fourth-mile{
+        max-width: 300px;
+    }
+    .sixth-mile{
+        max-width: 200px;
+    }
+    .seventh-mile{
+        max-width: 500px;
+    }
+    .third-mile{
+        margin-top: 50px;
+        max-width:300px;
+    }
+    .fifth-mile{
+        margin-top: 50px;
+        max-width:200px;
+    }
+
 }
 
 @media  screen and (max-width: 1400px) {
@@ -15,6 +39,39 @@
     .about-containers1{
         flex-wrap: wrap;
     }
+
+@media  screen and (max-width: 1280px) {
+
+    .about-containers1{
+        flex-wrap: wrap;
+    }
+
+    .second-mile{
+        max-width: 200px;
+    }
+    .fourth-mile{
+        max-width: 200px;
+    }
+    .sixth-mile{
+        max-width: 200px;
+    }
+
+    .third-mile{
+        margin-top: 0;
+        max-width:200px;
+    }
+    .fifth-mile{
+        margin-top: 0;
+        max-width:200px;
+    }
+    .seventh-mile{
+        margin-top: 0;
+        max-width:200px;
+    }
+    
+
+
+
 
 
 @media  screen and (max-width: 1400px) {
@@ -209,7 +266,10 @@
     .achieve{
         font-size: 2rem;
     }
-
+    .timeline-upper{
+        flex-direction: column;
+    }
+    
     
 
 
@@ -226,4 +286,4 @@
     .achieve{
         font-size: 2rem;
     }
-}
+}}

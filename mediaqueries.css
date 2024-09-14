@@ -1,299 +1,273 @@
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
     /* #profile-normal{
         display: none;
     }
     #profile-hover{
         display: flex;
     } */
-    .absolute{
+    .absolute {
         top: 50px !important;
     }
-    .timeline-item::before{
+    .timeline-item::before {
         font-size: 2rem;
     }
-    .second-mile{
+    .second-mile {
         max-width: 300px;
     }
-    .fourth-mile{
+    .fourth-mile {
         max-width: 300px;
     }
-    .sixth-mile{
+    .sixth-mile {
         max-width: 200px;
     }
-    .seventh-mile{
+    .seventh-mile {
         max-width: 500px;
     }
-    .third-mile{
+    .third-mile {
         margin-top: 50px;
-        max-width:300px;
+        max-width: 300px;
     }
-    .fifth-mile{
+    .fifth-mile {
         margin-top: 50px;
-        max-width:200px;
+        max-width: 200px;
     }
 
-    section,
-    .section-container{
+    /* section,
+    .section-container {
         height: fit-content;  
-    }
+    } */
 
-
-    section{
+    section {
         margin: 0 10%;
     }
-
 }
 
-@media  screen and (max-width: 1400px) {
-    
-    .about-containers1{
+@media screen and (max-width: 1400px) {
+    .about-containers1 {
         flex-wrap: wrap;
     }
-
-@media  screen and (max-width: 1280px) {
-
-    .about-containers1{
-        flex-wrap: wrap;
-    }
-
-    .second-mile{
-        max-width: 200px;
-    }
-    .fourth-mile{
-        max-width: 200px;
-    }
-    .sixth-mile{
-        max-width: 200px;
-    }
-
-    .third-mile{
-        margin-top: 0;
-        max-width:200px;
-    }
-    .fifth-mile{
-        margin-top: 0;
-        max-width:200px;
-    }
-    .seventh-mile{
-        margin-top: 0;
-        max-width:200px;
-    }
     
-
-
-
-
-
-@media  screen and (max-width: 1400px) {
-    #desktop-nav{
+    #desktop-nav {
         display: none;
     }
-    #hamburger-nav{
-        display: flex;
-    }
-    
-    /* #profile-normal{
+    #hamburger-nav {
         display: flex;
     }
 
-    #profile-hover{
-        display: none; */
+    /* #profile-normal {
+        display: flex;
     }
+    #profile-hover {
+        display: none;
+    } */
 
     #skills,
-    .experience-details-container{
-        margin-top:2rem;
+    .experience-details-container {
+        margin-top: 2rem;
     }
 
     #profile, 
-    .section-container{
+    .section-container {
         display: block;
     }
 
-
-    .arrow{
+    .arrow {
         display: none;
     }
 
     section,
-    .section-container{
+    .section-container {
         height: fit-content;  
     }
 
-
-    section{
+    section {
         margin: 0 10%;
     }
-    .section-pic-container{
+    .section-pic-container {
         height: 275px;
         width: 275px;
         margin: 0 auto 2rem;
     }
 
-    .about-containers1{
+    .about-containers1 {
         margin-top: 0;
         flex-direction: row;
-    } 
-    .contact-info-upper-container{
+    }
+    .contact-info-upper-container {
         flex-wrap: wrap;
     }
 }
 
-/* @media screen and (max-width: 930){
-    .about-containers1{
-        margin-top: 0;
-        flex-direction: column;
-    } 
-} */
-
-@media screen and (max-width: 600px){
-    #contact,
-    footer{
-        height:40vh;
+@media screen and (max-width: 1280px) {
+    .about-containers1 {
+        flex-wrap: wrap;
     }
-    #profile{
-        height:86vh;
+
+    .second-mile {
+        max-width: 200px;
+    }
+    .fourth-mile {
+        max-width: 200px;
+    }
+    .sixth-mile {
+        max-width: 200px;
+    }
+
+    .third-mile {
+        margin-top: 0;
+        max-width: 200px;
+    }
+    .fifth-mile {
+        margin-top: 0;
+        max-width: 200px;
+    }
+    .seventh-mile {
+        margin-top: 0;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact,
+    footer {
+        height: 40vh;
+    }
+    #profile {
+        height: 86vh;
         margin-bottom: 0;
     }
 
-    article{
+    article {
         font-size: 1rem;
     }
     
-    footer nav{
+    footer nav {
         height: fit-content;
         margin-bottom: 2rem;
     }
     .about-containers1,
     .contact-info-upper-container,
-    .btn-container{
+    .btn-container {
         flex-wrap: wrap;
     }
 
-    .contact-info-container{
-        margin:0
+    .contact-info-container {
+        margin: 0;
     }
 
     .contact-info-container p,
-    .nav-links li a{
+    .nav-links li a {
         font-size: 1rem;
         line-height: 3rem;
-    
     }
-    .experience-subtitle{
+    .experience-subtitle {
         font-size: 1.5rem;
-    
     }
-    .logo{
+    .logo {
         font-size: 2rem;
     }
-    .nav-links{
+    .nav-links {
         flex-direction: column;
-        gap:0.5 rem;
+        gap: 0.5rem;
         text-align: center;
     }
-    .section-pic-container{
-        width:auto;
+    .section-pic-container {
+        width: auto;
         height: 46vw;
         justify-content: center;
     }
-    .forward-icon{
+    .forward-icon {
         display: none;
     }
-    .title{
+    .title {
         font-size: 2rem;
     }
-    .details-container{
+    .details-container {
         padding: 0.7rem;
     }
-    .project-img{
+    .project-img {
         width: 200px;
     }
-    .text-container{
+    .text-container {
         text-align: justify;
     }
-    .rightbtn,.leftbtn{
+    .rightbtn, .leftbtn {
         display: none;
     }
-    .about-containers2{
+    .about-containers2 {
         margin-left: 0rem;
         margin-right: 0rem;
     }
 
-    .about-containers1{
+    .about-containers1 {
         margin-top: 0;
         flex-direction: column;
-    } 
-    .section-text-p3{
+    }
+    .section-text-p3 {
         font-size: 1rem;
     }
-    .nav{
+    .nav {
         height: 14vh;
     }
-    .name{
+    .name {
         white-space: nowrap;
         font-size: 2.3rem;
     }
 
-    .achv-photo{
+    .achv-photo {
         width: 250px;
     }
 
-    .achv-member{
+    .achv-member {
         height: 2rem;
     }
-    .achievement-container{
+    .achievement-container {
         flex-direction: column;
-        gap:0rem;
+        gap: 0rem;
         padding: 0.7rem;
     }
-    .achv-title{
+    .achv-title {
         text-wrap: wrap;
         font-size: 1.2rem;
     }
 
-    .absolute{
+    .absolute {
         overflow-x: hidden;
     }
-    .opacity-50{
+    .opacity-50 {
         opacity: 0.1;
     }
-    .achv-photo-container{
+    .achv-photo-container {
         margin-top: 0rem;
-        gap:0.5rem;
+        gap: 0.5rem;
     }
-    .place-container{
+    .place-container {
         margin-top: 0.7rem;
         margin-bottom: 0.7rem;
     }
     
-    .section-text-p2{
+    .section-text-p2 {
         font-size: 1.2rem;
     }
-    .imagine{
+    .imagine {
         font-size: 1.5rem;
     }
-    .achieve{
+    .achieve {
         font-size: 2rem;
     }
-    .timeline-upper{
+    .timeline-upper {
         flex-direction: column;
     }
-    
-    
-
-
 }
 
-@media  screen and (max-width: 500px) {
-    
-    /* .quote{
+@media screen and (max-width: 500px) {
+    /* .quote {
         flex-direction: column;
     } */
-    .imagine{
+    .imagine {
         font-size: 1.5rem;
     }
-    .achieve{
+    .achieve {
         font-size: 2rem;
     }
-}}
+}

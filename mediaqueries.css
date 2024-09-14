@@ -32,6 +32,16 @@
         max-width:200px;
     }
 
+    section,
+    .section-container{
+        height: fit-content;  
+    }
+
+
+    section{
+        margin: 0 10%;
+    }
+
 }
 
 @media  screen and (max-width: 1400px) {

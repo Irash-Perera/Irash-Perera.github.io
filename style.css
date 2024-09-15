@@ -36,6 +36,18 @@ nav{
     height: 17vh;
 }
 
+.desktop-nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+    transition: top 0.3s; 
+}
+
 .nav-links{
     gap: 1rem;
     list-style: none;
@@ -61,33 +73,6 @@ a:hover{
     font-weight: 200;
 }
 
-  
-/* DEMO-SPECIFIC STYLES */
-.typewriter h1 {
-color: #000000;
-font-weight: 400;
-font-size: 2rem;
-overflow: hidden; /* Ensures the content is not revealed until the animation */
-border-right: .15em solid orange; /* The typwriter cursor */
-white-space: nowrap; /* Keeps the content on a single line */
-margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-letter-spacing:0rem; /* Adjust as needed */
-animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-from { width: 0 }
-to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-from, to { border-color: transparent }
-50% { border-color: orange }
-}
 
 .logo:hover{
     cursor: default;
@@ -200,9 +185,12 @@ section{
     display:flex;
     justify-content: center;
     gap: 5rem;
-    /* height: 80vh; */
+    /* height: 80vh;
+    margin-top: 20vh; */
 
 }
+
+
 
 
 .section-pic-container{
@@ -786,8 +774,8 @@ article .icon{
     transform: scale(1.1);
 }
 .tech-icon img {
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
 }
 .tech-icon span {
     margin-top: 8px;
@@ -801,7 +789,7 @@ article .icon{
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    color: white;;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -809,6 +797,11 @@ article .icon{
     transition: opacity 0.3s ease;
     border-radius: 20%;
 }
+
+.experience-level{
+    font-size: 0.8rem;
+}
+
 .tech-icon:hover .experience-level {
     opacity: 1;
 }

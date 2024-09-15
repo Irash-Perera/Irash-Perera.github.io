@@ -24,3 +24,14 @@ buttonRight2.onclick = function () {
 buttonLeft2.onclick = function () {
   document.getElementById('container2').scrollLeft -= 800;
 };
+
+var prevScrollpos = window.scrollY || window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.scrollY || window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("desktop-nav").style.top = "0";
+  } else {
+    document.getElementById("desktop-nav").style.top = "-20vh";
+  }
+  prevScrollpos = currentScrollPos;
+}

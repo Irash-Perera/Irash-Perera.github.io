@@ -41,6 +41,12 @@
         margin: 0 10%;
     }
 }
+@media screen and (min-width: 1400px) {
+    .profile-section{
+        height: 90vh;
+        margin-top: 10vh;
+    }
+}
 
 @media screen and (max-width: 1400px) {
     .about-containers1 {

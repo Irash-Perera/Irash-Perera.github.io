@@ -1,5 +1,5 @@
 .absolute{
-    position:absolute;
+    position:fixed;
     inset: 0;
     justify-content: center;
     display: inline-flex;
@@ -51,13 +51,13 @@
 }
 
 .bg-primary{
-    background-color: rgb(30,0,250);
+    background-color: rgb(79, 78, 79);
 }
 .bg-teal{
-    background-color: rgb(255,72,173);
+    background-color: rgb(7, 1, 5);
 }
 .bg-purple{
-    background-color: rgb(140,0,215);
+    background-color: rgb(47, 46, 48);
 }
 
 .absolute2{
@@ -110,11 +110,11 @@
 }
 
 .bg-primary-2{
-    background-color: rgb(30,0,250);
+    background-color: rgb(159, 159, 163);
 }
 .bg-teal-2{
-    background-color: rgb(255,72,173);
+    background-color: rgb(75, 66, 71);
 }
 .bg-purple-2{
-    background-color: rgb(140,0,215);
+    background-color: rgb(62, 61, 63);
 }

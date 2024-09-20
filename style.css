@@ -187,6 +187,7 @@ section{
     gap: 5rem;
     /* height: 80vh;
     margin-top: 20vh; */
+    animation: fadeInBlur 1s ease-out;
 
 }
 
@@ -198,6 +199,7 @@ section{
     height: 400px;
     width: 400px;
     margin: auto, 0;
+    animation: slideInFromLeft 1s ease-out;
     
 }
 .profile-photo { 
@@ -223,18 +225,21 @@ section{
     text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
+    animation: slideInFromRight 0.5s ease-out;
 }
 
 .section-text-p2{
     font-size: 1.5rem;
     margin-bottom: 0rem;
     font-weight: 600;
+    animation: slideInFromRight 0.7s ease-out;
 }
 
 .section-text-p3{
     font-size: 1.0rem;
     margin-bottom: 1rem;
     font-weight: 500;
+    animation: slideInFromRight 0.8s ease-out;
 }
 
 .inline-container {
@@ -242,6 +247,7 @@ section{
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+    animation: slideInFromRight 0.9s ease-out;
 }
 
 .section-text-p4{
@@ -266,6 +272,7 @@ section{
     font-size: 3rem;
     text-align: center;
     font-weight: 600;
+    animation: slideInFromRight 0.6s ease-out;
 }
 
 #social-container{
@@ -273,6 +280,7 @@ section{
     justify-content: center;
     margin-top: 1rem;
     gap: 1.5rem;
+    animation: slideInFromRight 1.5s ease-out;
 }
 
 .icon{
@@ -294,6 +302,8 @@ section{
     display: flex;
     justify-content: center;
     gap: 1rem;
+    animation: slideInFromRight 1.3s ease-out;
+    
 }
 
 .btn{
@@ -332,6 +342,43 @@ section{
 .btn-color-2:hover{
     border: rgb(255,255,255) 0.1rem solid;
 }
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+      filter: blur(5px);
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+      filter: blur(5px);
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+  
+  @keyframes fadeInBlur {
+    0% {
+      opacity: 0;
+      filter: blur(10px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
 
 /* About Section */
 

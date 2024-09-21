@@ -9,6 +9,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    cursor: none;
 }
 
 
@@ -204,7 +205,11 @@ section{
 }
 .profile-photo { 
     border-radius: 50%;
-    box-shadow: 0 0 70px 20px #ffffff;
+    box-shadow: 0 0 20px #ffffff,
+               0 0 60px #ffffff,
+                0 0 40px #ffffff,
+                0 0 80px #ffffff;
+
     /* border: 1px solid rgb(53,53,53); */
  }
  .profile-photo:hover{

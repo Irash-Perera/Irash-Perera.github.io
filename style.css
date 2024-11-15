@@ -12,6 +12,14 @@ body{
   
 }
 
+#gridCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10000;
+}
 
 html{
     scroll-behavior: smooth;
@@ -71,7 +79,10 @@ a:hover{
     font-size: 2rem;
     font-family: "Kaushan Script", cursive;
     transform: rotate(-8deg);
-    font-weight: 200;
+    
+    h1{
+        font-weight: 400;
+    }
 }
 
 
@@ -251,8 +262,12 @@ section{
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     animation: slideInFromRight 0.9s ease-out;
+}
+
+.inline-2{
+ margin-bottom: 1rem;
 }
 
 .section-text-p4{
@@ -268,7 +283,7 @@ section{
 
 
 .title{
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: 600;
 }

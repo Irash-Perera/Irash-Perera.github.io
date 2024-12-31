@@ -78,7 +78,10 @@ const skillsData = {
     { name: 'HTML', level: 'Experienced',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/html.svg' },
     { name: 'PUG', level: 'Intermediate',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/pug.svg' },
     { name: 'CSS', level: 'Experienced',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/css.svg' },
-    { name: 'Arduino', level: 'Experienced',   icon: 'https://skillicons.dev/icons?i=arduino' }
+        { name: 'Arduino', level: 'Experienced', icon: 'https://skillicons.dev/icons?i=arduino' },
+        { name: 'Ballerina', level: 'Basic', icon: "https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/ballerina.svg" },
+        { name: 'Bash', level: 'Intermediate',   icon: "https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/bash-light.svg"}
+    
   ],
   'Machine Learning & Data': [
     { name: 'Scikit-learn', level: 'Experienced',   icon: 'https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/SciKitLearn-Light.svg' },
@@ -88,7 +91,9 @@ const skillsData = {
     { name: 'Pandas', level: 'Experienced',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/pandas.svg' },
     { name: 'Langchain', level: 'Intermediate',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/langchain.svg' },
     { name: 'Chroma', level: 'Basic',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/chroma-dark.svg' },
-    { name: 'OpenCV', level: 'Intermediate',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/opencv-dark.svg' },
+      { name: 'OpenCV', level: 'Intermediate', icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/opencv-dark.svg' },
+      { name: 'RAGAS', level: 'Intermediate', icon: 'https://docs.ragas.io/en/stable/_static/imgs/ragas-logo.png' },
+      { name: 'LangFuse', level: 'Experienced',   icon: 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/langfuse-color.png' },
   ],
   'Web Development': [
     { name: 'Node.js', level: 'Intermediate',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/node.svg' },
@@ -98,7 +103,11 @@ const skillsData = {
     { name: 'Git', level: 'Experienced',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/git.svg' },
     { name: 'MongoDB', level: 'Experienced',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/mongodb-dark.svg' },
     { name: 'MySQL', level: 'Experienced',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/mysql.svg' },
-    { name: 'Firebase', level: 'Intermediate',   icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/firebase-light.svg' },
+    { name: 'Firebase', level: 'Intermediate', icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/firebase-light.svg' },
+    { name: 'GraphQL', level: 'Experienced', icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/graphql.svg' },
+    { name: 'WSO2 API Manager', level: 'Basic', icon: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*uX1UJ52lNWXj0wNNPI3bMA.png' },
+    { name: 'Docker', level: 'Basic', icon: 'https://raw.githubusercontent.com/onemarc/tech-icons/main/icons/docker.svg' },
+    { name: 'Apollo', level: 'Intermediate',   icon: "https://img.icons8.com/?size=48&id=ktSS1TBte4xa&format=png"}
     
   ]
 };

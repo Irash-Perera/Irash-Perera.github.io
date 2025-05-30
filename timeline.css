@@ -102,11 +102,12 @@
 }
 
 .seventh-mile{
-  margin-top: 50px;
+  margin-top: 40px;
+  max-width:200px;
   height: auto;
-  transform: rotate(deg);
-
-
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 

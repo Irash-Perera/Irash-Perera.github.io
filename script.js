@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const projectCounter = document.getElementById('projectCounter');
   const commitCounter = document.getElementById('commitCounter');
 
-  const targetProjects = 15;
-  const targetCommits = 500;
+  const targetProjects = 20;
+  const targetCommits = 700;
   const animationDuration = 2000
 
   let animated = false;
